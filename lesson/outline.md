@@ -75,7 +75,10 @@
 
 ## 1.4 Homework
 
-* Reading
+* Reading and watching
+    * https://learnxinyminutes.com/docs/python3/
+    * http://stanfordpython.com/#lecture
+    * https://www.youtube.com/watch?v=VVbJ4jEoOfU
 * Finish exercises
 
 ## 2.1 Numpy
