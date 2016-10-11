@@ -1,12 +1,13 @@
 ## 1.1 Introduction
 
 * What is Python
-    * Comparison with other programming languages
-        * MicroPython
     * What is programming?
         * Language vs. interpreters
         * Processes and files
         * Inside the process; objects, pointers and garbage collection
+    * Comparison with other programming languages
+        * Why is Python popular
+        * MicroPython
     * How to learn Python?
         * Book
         * Reddit
@@ -70,8 +71,7 @@
 
 ## 1.3 Exercises
 
-* Quiz
-* Larger exercises
+* Automatic wordcloud creation
 
 ## 1.4 Homework
 
