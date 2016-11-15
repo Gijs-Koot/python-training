@@ -2,40 +2,50 @@ Python training
 
 ## Doelgroep
 
-Business consultants van Berenschot met een bèta achtergrond en ervaring met het werken met Excel. Als voorbereiding op de training gaan we uit van een basis, die bijvoorbeeld opgedaan kan worden door het volgen van een instapcursus op Code Academy, of het lezen van de eerste vijf hoofdstukken van de officiële Python Tutorial. De training wordt gevolgd met een eigen laptop, en cursisten wordt aangeraden Anaconda te gebruiken om een volledig toegeruste Python installatie te verkrijgen.
+Business consultants met een bèta achtergrond en ervaring met het werken met Excel. Als voorbereiding op de training gaan we uit van een basis, die bijvoorbeeld opgedaan kan worden door het volgen van een instapcursus op Code Academy, of het lezen van de eerste vijf hoofdstukken van de officiële Python Tutorial. De training wordt gevolgd met een eigen laptop, en cursisten wordt aangeraden Anaconda te gebruiken om een volledig toegeruste Python installatie te verkrijgen.
 
 ## Leerdoelen
 
-Zelfstandig en foutlozer met data kunnen werken. Bijvoorbeeld
-* Een script schrijven dat CSV- of Excel-bestanden inleest, daar een berekening op doet en de resultaten wegschrijft naar een ander bestand.
+Zelfstandig met data kunnen werken. Bijvoorbeeld
 * Werken met een interactief notebook om exploratieve dataanalyse te doen.
 * Data verzamelen van het web, vanuit databases en het opslaan van data.
 * Het maken van grafieken en andere visualisaties.
-* Enquête input verzamelen via een eenvoudige website.
+* Een script schrijven dat CSV- of Excel-bestanden inleest, daar een berekening op doet en de resultaten wegschrijft naar een ander bestand.
 
-Er is gekozen om met Python aan de slag te gaan vanwege het relatief lage instapniveau en de multi-inzetbaarheid. Daarnaast is Python een populaire taal voor data-analyse, en zijn er, dankzij een actieve community, externe packages beschikbaar van hoge kwaliteit, die allerlei taken eenvoudig maken. In het bijzonder zal de cursus zich richten op de packages Pandas, Numpy, en het gebruik van het interactieve Jupyter notebook.
+Er is gekozen om met Python aan de slag te gaan vanwege het relatief lage instapniveau en de flexi. Daarnaast is Python een populaire taal voor data-analyse, en zijn er, dankzij een actieve community, externe packages beschikbaar van hoge kwaliteit, die allerlei taken eenvoudig maken. In het bijzonder zal de cursus zich richten op de packages Pandas, Numpy, en het gebruik van het interactieve Jupyter notebook.
 
 ## Opzet
 
-De training bestaat uit vier dagdelen van ongeveer 4 uur. Deze blokken worden opgedeeld met twee pauzes, en bestaan voor ongeveer een derde deel uit centrale uitleg en het beantwoorden van vragen door de trainer, en daarbuiten werken cursisten alleen of in tweetallen aan praktische programmeeropdrachten.
+De training bestaat uit vier dagdelen van ongeveer 4 uur. Deze blokken worden opgedeeld met twee pauzes, en bestaan voor ongeveer twee derde deel uit centrale uitleg en het beantwoorden van vragen door de trainer, en daarbuiten werken cursisten alleen of in tweetallen aan praktische programmeeropdrachten.
 
 ### Dagdeel 1: Basisblok
 
-We beginnen de training met een toets van de basis. In kleine opdrachten wordt gekeken naar de flow van python scripts, de ingebouwde datastructuren en het gebruik van externe libraries. Het laatste deel van dit blok kijken we vooruit naar een aantal meer geavanceerde toepassingen, ter inspiratie en om de awareness te vergroten van de mogelijkheden met Python. Hiervoor lopen we gezamenlijk een meer geavanceerd voorbeeld door waarin een aantal einddoelen van de cursus samenkomen.
+We beginnen de training met een toets van de basis. In kleine opdrachten wordt gekeken naar de flow van python scripts, de ingebouwde datastructuren en het gebruik van het Jupyter-notebook.
 
-* Datastructuren en control flows
-* Importeren van externe packages
-* Vooruitblik
+* Introductie en installatie
+* Het gebruik van Jupyter-notebook
+* Datastructuren
+* Control flows
 
-### Dagdeel 2: Data Science met Python
+### Dagdeel 2: Werken met Python
 
-In het tweede deel van de training gaan we aan de slag met de meest gebruikte tools voor het werken met data in Python. Numpy is hierbij het fundament voor het werken met getallen, Pandas bouwt voort op Numpy en biedt functionaliteit die vergelijkbaar is met die van Excel; een tabelstructuur en eenvoudige visualisatietools.
-Werken met numpy en pandas
+Na de eerste kennismaking kijken we naar de functies en mogelijkheden die Python een productieve programmeertaal maken.
 
+* Exceptions and errors
+* Iterators, generators and comprehensions
+* Builtin functions and the stdlib
+* Gebruik van externe packages
+* Kennismaking met pandas
+
+### Dagdeel 3: Data Science met Python
+
+In het derde deel van de training gaan we aan de slag met de meest gebruikte tools voor het werken met data in Python. Numpy is hierbij het fundament voor het werken met getallen, Pandas bouwt voort op Numpy en biedt functionaliteit die vergelijkbaar is met die van Excel; een tabelstructuur en eenvoudige visualisatietools.
+
+* Werken met numpy en pandas
 * Data omvormen en opslaan
 * Visualisaties met Pandas en Seaborn
 
-### Dagdeel 3: Werken met data
+### Dagdeel 4: Werken met data
 
 Het derde dagdeel van de training richt zich op de buitenwereld. We kijken hoe je data kunt verzamelen van andere websites en databases. Daarnaast gaan we dieper in op het installeren en vinden van packages en het samenwerken met anderen met git en GitHub.
 
@@ -43,7 +53,7 @@ Het derde dagdeel van de training richt zich op de buitenwereld. We kijken hoe j
 * Werken met requests, json en sqllite
 * Introductie van git, GitHub en de Python community
 
-### Dagdeel 4: Het eerste prototype
+### Dagdeel 5: Het eerste prototype
 
 Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. We verzamelen data van een externe bron, voeren een aantal berekeningen uit en presenteren deze in een dashboard op basis van Bokeh.
 
@@ -53,13 +63,10 @@ Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. 
 
 ## Outline
 
-## 1.1 Introduction
+## 1 Introduction
 
 * What is Python
-    * What is programming?
-        * Language vs. interpreters
-        * Processes and files
-        * Inside the process; objects, pointers and garbage collection
+
     * Comparison with other programming languages
         * Why is Python popular
         * MicroPython
@@ -94,10 +101,10 @@ Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. 
         * bool, list, int, float, dict, tuple, set
         * in, or, any,  =, == and is
 
-## 1.2 Using Python
+## 2. Using Python
 
-* More advanced things we are going to need
-    * Unpacking things
+* Refreshing and practice with the basics
+* More advanced Python usage
     * Exceptions
     * Iterators, lists and generators
         * A closer look at the range functie
@@ -115,34 +122,27 @@ Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. 
     * datetime.datetime
         * Converting timestamps in moviedatabase
         * UserID::MovieID::Rating::Timestamp
-    * difflib
     * string
     * regex
 * Veelvoorkomende third-party packages en hun functies
     * `import`
+    * installing packages
     * requests
     * pandas
     * numpy
 
-## 1.3 Exercises
-
-* Automatic wordcloud creation
-
-## 1.4 Homework
+### Resources
 
 * Reading and watching
     * https://learnxinyminutes.com/docs/python3/
     * http://stanfordpython.com/#lecture
     * https://www.youtube.com/watch?v=VVbJ4jEoOfU
-* Finish exercises
 
-## 2.1 Numpy
+## 3 Pandas and numpy
 
-* Example
-    * Calculating prices
-
-## 2.2 Pandas and numpy
-
+* Numpy
+    * Example
+        * Calculating prices
 * What is pandas
     * Reading files
     * Series and Dataframes
@@ -156,55 +156,50 @@ Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. 
     * Indexing
     * `scipy`
         * `stats`
+* Pandas in action
+    * Case: RDW
+        * Column datatypes
+        * `to_numeric` & `to_datetime`
+        * Adding, subtracting, and mapping series
+        * Column datatypes: str en dt
+        * Datetime indices
+        * Groupby
+        * Apply
+* Visualization and exploration
+    * Boxplots
+    * Scatterplots
+    * Shared axes
+    * Widgets in Jupyter-notebook with interact
 
+## 4 Working with Python
 
-## 2.3 Pandas in action
+* Scripts and packages
+    * If __name__ == “__main__”
+    * Creating submodules
+    * Logging
+* External data
+    * HTML, HTTP en .json
+    * Using requests to get data
+    * Storing data with pandas and sqllite
+* Download and read dataset from https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data.
+* Epilogue: What is programming?
+    * Language vs. interpreters
+    * Processes and files
+    * Inside the process; objects, pointers and garbage collection
 
-* Case: RDW
-    * Column datatypes
-    * `to_numeric` & `to_datetime`
-    * Adding, subtracting, and mapping series
-    * Column datatypes: str en dt
-    * Datetime indices
-    * Groupby
-    * Apply
+## Topics
 
-## 2.4 Visualization and exploration
+* The Python ecosystem
+    * History
+    * Prolific users
+    * Scipy and related communities
+    * PyCon, Scipy, FOSDEM
+* Git
+    * Werken met git
+        * clone, commit, push en pull
+    * Github
+* Interactive visualizations with Bokeh
 
-* Boxplots
-* Scatterplots
-* Shared axes
-* Widgets in Jupyter-notebook with interact
+## Exercises
 
-## 3.1 Working with Python
-
-* If __name__ == “__main__”
-* Creating submodules
-* Logging
-
-## 3.2 External data
-
-* HTML, HTTP en .json
-* Using requests to get data
-* Storing data with pandas and sqllite
-
-## 3.3 The Python ecosystem
-
-* History
-* Prolific users
-* Scipy and related communities
-* PyCon, Scipy, FOSDEM
-
-## 3.4 Git
-
-* Werken met git
-    * clone, commit, push en pull
-* Github
-
-## 4.1 A project with python
-
-    * Download and read dataset from https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data.
-
-## 4.2 Interactive visualizations with Bokeh
-
-## 4.3
+* Automatic wordcloud creation
