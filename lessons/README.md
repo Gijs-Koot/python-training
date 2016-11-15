@@ -101,6 +101,16 @@ Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. 
         * bool, list, int, float, dict, tuple, set
         * in, or, any,  =, == and is
 
+### Resources
+
+* Reading and watching
+    * PyMC https://www.youtube.com/watch?v=Ajmj5itd2s8
+    * PyData https://www.youtube.com/channel/UCOjD18EJYcsBog4IozkF_7w
+    * https://learnxinyminutes.com/docs/python3/
+    * http://stanfordpython.com/#lecture
+    * https://www.youtube.com/watch?v=VVbJ4jEoOfU
+
+
 ## 2. Using Python
 
 * Refreshing and practice with the basics
