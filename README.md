@@ -41,9 +41,10 @@ Na de eerste kennismaking kijken we naar de functies en mogelijkheden die Python
 
 In het derde deel van de training gaan we aan de slag met de meest gebruikte tools voor het werken met data in Python. Numpy is hierbij het fundament voor het werken met getallen, Pandas bouwt voort op Numpy en biedt functionaliteit die vergelijkbaar is met die van Excel; een tabelstructuur en eenvoudige visualisatietools.
 
-* Werken met numpy en pandas
+* Werken met numpy en matplotlib
+* De basis van `pandas`
 * Data omvormen en opslaan
-* Visualisaties met Pandas en Seaborn
+* Visualisaties met Pandas
 
 ### Dagdeel 4: Automatiseren met Python
 
@@ -121,8 +122,6 @@ Het derde dagdeel van de training richt zich op de buitenwereld. We behandelen h
     * installing packages
     * requests
     * pandas
-
-### Resources
 
 ### Resources
 
