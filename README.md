@@ -37,7 +37,7 @@ Na de eerste kennismaking kijken we naar de functies en mogelijkheden die Python
 * Gebruik van externe packages
 * Kennismaking met pandas
 
-### Dagdeel 3: Data Science met Python
+### Dagdeel 3: Dataanalyse met Python
 
 In het derde deel van de training gaan we aan de slag met de meest gebruikte tools voor het werken met data in Python. Numpy is hierbij het fundament voor het werken met getallen, Pandas bouwt voort op Numpy en biedt functionaliteit die vergelijkbaar is met die van Excel; een tabelstructuur en eenvoudige visualisatietools.
 
@@ -45,21 +45,14 @@ In het derde deel van de training gaan we aan de slag met de meest gebruikte too
 * Data omvormen en opslaan
 * Visualisaties met Pandas en Seaborn
 
-### Dagdeel 4: Werken met data
+### Dagdeel 4: Automatiseren met Python
 
-Het derde dagdeel van de training richt zich op de buitenwereld. We kijken hoe je data kunt verzamelen van andere websites en databases. Daarnaast gaan we dieper in op het installeren en vinden van packages en het samenwerken met anderen met git en GitHub.
+Het derde dagdeel van de training richt zich op de buitenwereld. We behandelen hoe je data kunt verzamelen van andere websites en databases, waarbij we de database `sqlite` gebruiken. Daarnaast gaan we dieper in op het maken van scripts, en het samenwerken met anderen met git en GitHub.
 
 * Python scripts, command-line tools en editors
-* Werken met requests, json en sqllite
+* Werken met requests, json en sqllite (http://sqlitebrowser.org/)
 * Introductie van git, GitHub en de Python community
-
-### Dagdeel 5: Het eerste prototype
-
-Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. We verzamelen data van een externe bron, voeren een aantal berekeningen uit en presenteren deze in een dashboard op basis van Bokeh.
-
-* Integratie van eerdere onderdelen
-* Het gebruik van Bokeh voor interactieve visualisaties
-* Python als webserver
+* Het gebruik van Bokeh voor dashboards
 
 ## Outline
 
@@ -69,7 +62,6 @@ Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. 
 
     * Comparison with other programming languages
         * Why is Python popular
-        * MicroPython
     * How to learn Python?
         * Book
         * Reddit
@@ -101,16 +93,6 @@ Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. 
         * bool, list, int, float, dict, tuple, set
         * in, or, any,  =, == and is
 
-### Resources
-
-* Reading and watching
-    * PyMC https://www.youtube.com/watch?v=Ajmj5itd2s8
-    * PyData https://www.youtube.com/channel/UCOjD18EJYcsBog4IozkF_7w
-    * https://learnxinyminutes.com/docs/python3/
-    * http://stanfordpython.com/#lecture
-    * https://www.youtube.com/watch?v=VVbJ4jEoOfU
-
-
 ## 2. Using Python
 
 * Refreshing and practice with the basics
@@ -139,11 +121,14 @@ Op het laatste dagdeel combineren we de vaardigheden tot een werkend prototype. 
     * installing packages
     * requests
     * pandas
-    * numpy
+
+### Resources
 
 ### Resources
 
 * Reading and watching
+    * PyMC https://www.youtube.com/watch?v=Ajmj5itd2s8
+    * PyData https://www.youtube.com/channel/UCOjD18EJYcsBog4IozkF_7w
     * https://learnxinyminutes.com/docs/python3/
     * http://stanfordpython.com/#lecture
     * https://www.youtube.com/watch?v=VVbJ4jEoOfU
