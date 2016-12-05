@@ -167,19 +167,21 @@ Het derde dagdeel van de training richt zich op de buitenwereld. We behandelen h
 
 ## 4 Working with Python
 
+* Git
+    * Repositories and code sharing
 * Scripts and packages
     * If __name__ == “__main__”
-    * Creating submodules
-    * Logging
+    * Using other scripts
 * External data
     * HTML, HTTP en .json
-    * Using requests to get data
+    * Using requests to get or upload data
     * Storing data with pandas and sqllite
+* Dashboards with Bokeh
+* Case studies
+
+## Leftovers
+
 * Download and read dataset from https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data.
-* Epilogue: What is programming?
-    * Language vs. interpreters
-    * Processes and files
-    * Inside the process; objects, pointers and garbage collection
 
 ## Topics
 
